@@ -10,6 +10,7 @@ const cookieParser = require('cookie-parser')
 
 app.use(cors({
     origin: 'https://devtinderfull.netlify.app',
+   
     credentials: true,
 }));
 
