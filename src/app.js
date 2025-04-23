@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 7777;
 const cookieParser = require('cookie-parser')
 
 app.use(cors({
-    origin: 'https://devtinderfull.netlify.app',
+    origin: 'https://devtinder-f-xi.vercel.app',
    
     credentials: true,
 }));
