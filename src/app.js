@@ -10,7 +10,8 @@ const cookieParser = require('cookie-parser')
 
 app.use(cors({
     origin: 'https://devtinder-f-xi.vercel.app',
-   
+    methods: ["GET", "PUT", "PATCH", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
 }));
 
